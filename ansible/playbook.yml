@@ -1,1 +1,14 @@
+---
+- name: install java and jenkins
+  hosts: 172.31.11.246
+  become: true
+  tasks:
+    - name: run jenkins.sh on jenkins-m
+      script: jenkins.sh
 
+- name: install java
+  hosts: 172.31.11.215
+  become: true
+  tasks:
+    - name: run java.sh on agent
+      script: java.sh
