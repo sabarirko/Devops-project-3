@@ -41,5 +41,12 @@ A Jenkins pipeline was then created to fetch code from GitHub and set up a conti
 
 5. **Pipeline Job**
    - Created a **Pipeline Script (Jenkinsfile)** to fetch source code from GitHub.  
-   - Verified that Jenkins successfully cloned the repo onto the slave.  
+   - Verified that Jenkins successfully cloned the repo onto the slave.
+
+---
+
+## ✅ Outcomes
+- Automated **infrastructure provisioning** with Terraform.  
+- Centralized configuration management using **Ansible**.  
+- CI/CD pipeline setup with **Jenkins** integrated to GitHub.
 
