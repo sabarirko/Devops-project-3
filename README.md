@@ -16,8 +16,7 @@ A Jenkins pipeline was then created to fetch code from GitHub and set up a conti
 ---
 
 ## ⚙️ Architecture
-![Architecture Diagram](screenshots/architecture.png)  
-*(Replace with your Terraform + Ansible architecture diagram)*  
+![Architecture Diagram](screenshots/terraform_ansible_jenkins_pipeline.png)  
 
 ---
 
